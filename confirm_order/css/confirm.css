@@ -1,0 +1,165 @@
+body {
+	background-color: #f9f9f9;
+}
+
+.header {
+	background-color: #fff;
+	border-bottom: 0.13vw solid #ededed;
+}
+
+.header .title_box {
+	padding: 8.2vw 0 2vw 2.47vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header .title_box .left {
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+}
+
+.header .left img {
+	height: 4.8vw;
+	padding-right: 3.87vw;
+}
+
+.header .left .name {
+	border-left: 0.4vw solid #000;
+	padding-left: 2.8vw;
+	color: #101010;
+	font-size: 4.53vw;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.header .more img {
+	height: 4.67vw;
+}
+
+/* 信息开始 */
+.content {
+	padding: 3.6vw;
+	margin-bottom: 14vw;
+	border-radius: 2vw;
+}
+
+.item {
+	box-sizing: border-box;
+	background-color: white;
+	border: 0.2vw solid #EAEAEA;
+}
+
+.item .info {
+	padding: 3.47vw;
+	border-bottom: 0.2vw solid #EAEAEA;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.item .user .name,
+.item .user .tel,
+.item .user .addr {
+	font-size: 3.73vw;
+	color: black;
+	line-height: 5.47vw;
+}
+
+.item .user .addr {
+	max-width: 74vw;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.item .des .tel {
+	padding: 1.72vw 0;
+}
+
+.item .info .right img {
+	height: 3.6vw;
+}
+
+.item .product {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 3.47vw;
+	border-bottom: 0.2vw solid #EAEAEA;
+}
+
+.item .product .img img {
+	width: 19.47vw;
+	padding-right: 3.87vw;
+}
+
+.item .product .des .name {
+	font-size: 3.73vw;
+	color: rgba(0,0,0,0.88);
+}
+
+.item .product .des .price {
+	font-size: 3.73vw;
+	color:#ff2732;
+	padding-top: 2vw;
+}
+
+.item .freight {
+	font-size: 3.73vw;
+	color: black;
+	padding: 3.47vw;
+	border-bottom: 0.2vw solid #EAEAEA;
+}
+
+.item .diliver_way {
+	font-size: 3.73vw;
+	color: black;
+	padding: 3.47vw;
+	display: flex;
+	align-items: center;
+}
+
+.item .diliver_way .dot {
+	width: 2.53vw;
+	height: 2.53vw;
+	background-color: white;
+	border: 0.2vw solid #c6c6c6;
+	border-radius: 2.53vw;
+	margin: 0 1.33vw 0 2.93vw;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	width: 100%;
+	box-sizing: border-box;
+	background: white;
+	justify-content: space-between;
+	align-items: center;
+	border-top: 0.2vw solid #EAEAEA;
+}
+
+.footer .total {
+	font-size: 3.73vw;
+	color: black;
+	padding-left: 4.13vw;
+}
+
+.footer .total .money {
+	font-size: 3.73vw;
+	color: #FF2732;
+}
+
+.footer .submit {
+	font-size: 3.73vw;
+	color: white;
+	background-color: #ff2732;
+	width: 39.5vw;
+	text-align: center;
+	padding: 3.33vw 0;
+}

@@ -1,0 +1,191 @@
+body{
+	background-color: #f9f9f9;
+}
+
+.header {
+	background-color: #fff;
+	border-bottom: 0.13vw solid #ededed;
+}
+
+.header .title_box {
+	padding: 8.2vw 0 2vw 2.47vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header .title_box .left {
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+}
+
+.header .left img {
+	height: 4.53vw;
+	padding-right: 4vw;
+}
+
+.header .left .name {
+	border-left: 0.4vw solid #7f7f7f;
+	padding-left: 2.8vw;
+	color: #101010;
+	font-size: 4.53vw;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.header .more img {
+	height: 4.67vw;
+}
+
+.nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	border-bottom:0.2vw solid #EAEAEA ;
+	padding: 0 3.2vw;
+}
+.nav .item{
+	position: relative;
+	font-size: 3.73vw;
+	color: black;
+	padding: 2.53vw 0;
+	border-bottom:0.2vw solid white;
+}
+.nav .item:first-child{
+	color: black;
+	border-bottom:0.53vw solid red;
+}
+.nav .item .red{
+	position: absolute;
+	top: 1vw;
+	right: -3vw;
+	font-size: 2.1vw;
+	background-color: red;
+	color: white;
+	height: 3vw;
+	width: 3vw;
+	border-radius: 3vw;
+	text-align: center;
+}
+
+/* box开始 */
+.content {
+	box-sizing: border-box;
+}
+.content .item{
+	border: 0.2vw solid #EAEAEA;
+	box-sizing: border-box;
+	margin: 4.53vw 3.07vw;
+	background-color: white;
+	border-radius: 1vw;
+}
+.content .order_status {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2.53vw 2.4vw;
+	font-weight: 600;
+}
+
+.content .order_status .left {
+	font-size: 3.73vw;
+	color: black;
+}
+
+.content .order_status .right {
+	font-size: 3.73vw;
+	color: red;
+}
+
+.content .product {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 2.53vw 2.8vw 1.33vw;
+	border-bottom: 0.2vw solid #EAEAEA;
+}
+
+.content .product .img img {
+	padding-right: 3.07vw;
+	width: 22vw;
+}
+.content .product .txt{
+	width: 60.8vw;
+	padding-right: 3.33vw;
+}
+.content .product .name {
+	font-size: 3.47vw;
+	color: black;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 9.2vw;
+}
+.content .product .type{
+	font-size: 3.2vw;
+	color: #8f8f8f;
+}
+.content .product .price_box{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.content .product .price_box .price{
+	font-size: 3.2vw;
+	color: red;
+}
+.content .product .price_box .price span{
+	font-size: 3.73vw;
+	color: #FF2732;
+}
+.content .product .price_box .number span{
+	font-size: 3.73vw;
+	color: #bababa;
+}
+.content .product .price_box .number{
+	font-size: 3.2vw;
+	color: #bababa;
+}
+.total_box{
+	font-size: 3.73vw;
+	color: #383636;
+	padding: 2.93vw 3.2vw;
+}
+
+.total{
+	padding-bottom: 3.07vw;
+	display: flex;
+	justify-content: space-between;
+}
+
+.handle{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 0 2.4vw 2.8vw 2.4vw;
+	
+}
+.handle .cancle{
+	font-size: 3.73vw;
+	color: #383636;
+	padding: 1.33vw 3.47vw;
+	border:0.2vw solid #aaa ;
+	border-radius: 5vw;
+	margin-right: 3.07vw;
+}
+.handle .buynow{
+	font-size: 3.73vw;
+	color: white;
+	background-color: #FF2732;
+	padding: 1.33vw 3.47vw;
+	border:0.2vw solid #FF2732 ;
+	border-radius: 5vw;
+}
+
+/* 全部订单页 */
+.total_box_right{
+	text-align: right;
+	padding: 2.93vw 3.33vw 3.6vw;
+}

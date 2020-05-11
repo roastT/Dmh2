@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/my_order.css" />
+	</head>
+	<body>
+		<div class="header">
+			<div class="container">
+				<div class="title_box">
+					<div class="left">
+						<img src="img/back.png">
+						<div class="name">
+							我的订单
+						</div>
+					</div>
+					<div class="more">
+						<img src="img/more.png">
+					</div>
+				</div>
+			</div>
+		</div>
+		<ul class="nav">
+			<li class="item">全部</li>
+			<li class="item">
+				待付款
+				<div class="red">2</div>
+			</li>
+			<li class="item">待发货</li>
+			<li class="item">待收货</li>
+			<li class="item">已完成</li>
+		</ul>
+		<ul class="content">
+			<li class="item">
+				<div class="order_status">
+					<div class="left">订单状态</div>
+					<div class="right">等待买家付款</div>
+				</div>
+				<div class="product">
+					<div class="img"><img src="img/photo_1.jpg"></div>
+					<div class="txt">
+						<div class="name">高端GNF不锈钢脚踏垃圾桶家用40L大容量30L厨房25L客厅8L有盖...</div>
+						<div class="type">容量30L</div>
+						<div class="price_box">
+							<div class="price">￥<span>520</span></div>
+							<div class="number">X<span>1</span></div>
+						</div>
+					</div>
+				</div>
+				<div class="total_box">
+					<div class="total">
+						<div>商品小计：</div>
+						<div>&yen;788</div>
+					</div>
+					<div class="total">
+						<div>运费：</div>
+						<div>&yen;0.00</div>
+					</div>
+					<div class="total">
+						<div>实付费：</div>
+						<div>&yen;788</div>
+					</div>
+				</div>
+				<div class="handle">
+					<div class="cancle">取消订单</div>
+					<a href="../confirm_order/confirm.html"><div class="buynow">立即付款</div></a>
+				</div>
+			</li>
+		</ul>
+		<script src="js/jquery-3.4.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$('.nav .item').click(function () {
+				$(this).css({'color':'#ff2732','border-bottom':'0.53vw solid #ff2732'});
+				$(this).siblings('.item').css({'color':'#545353','border':'none'});
+			})
+			
+			// 返回上一页面
+			$('.header .left img').click(function () {
+				history.back();
+			})
+		</script>
+	</body>
+</html>

@@ -1,0 +1,166 @@
+.header{
+	background-color: #fff;
+}
+
+.header .title_box{
+	padding: 8.2vw 0 4.13vw 2.47vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header .title_box .left{
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+}
+
+.header .left img{
+	height: 4.8vw;
+	width: 2.93vw;
+	padding-right: 3.87vw;
+}
+
+.header .left .name{
+	border-left: 0.4vw solid #000;
+	padding-left: 2.8vw;
+	color: #101010;
+	font-size: 4.53vw;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.header .more img{
+	height: 4.67vw;
+}
+
+.header .input{
+	margin-bottom: 2.8vw;
+	position: relative;
+}
+
+.header .input input{
+	width: 100%;
+	outline: none;
+	border: none;
+	border-radius: 2vw;
+	height: 8.8vw;
+	background-color: #f4f8f7;
+	color: rgba(16,16,16,0.7);
+	font-size: 3.47vw;
+	text-align: center;
+}
+
+.header .input img{
+	position: absolute;
+	width: 4vw;
+	left: 38vw;
+	top: 2.6vw;
+}
+
+.body{
+	border-top: 0.13vw solid #EEEEEE;
+	display: flex;
+	}
+/* 左侧导航条 */
+.left_nav{
+	box-sizing: border-box;
+	width: 20.13vw ;
+	
+}
+
+.nav{
+	margin-top: 5.33vw;
+	border-left: 0.53vw solid #ffffff;
+	color: #101010;
+	font-size: 3.47vw;
+	text-align: center;
+	box-sizing: border-box;
+	width: 20.13vw ;
+}
+
+.left_nav a:first-child .nav{
+	color: #FF2732;
+	border-left: 0.53vw solid #FF2732;
+}
+
+/* 右侧商品 */
+.main{
+	padding-left: 4.4vw;
+	border-left: 0.13vw solid #EEEEEE;
+}
+.banner{
+	margin-top: 3.87vw;
+	padding-bottom: 4.13vw;
+}
+
+.banner img{
+	height: 26.67vw;
+}
+
+.title{
+	color: #101010;
+	font-size: 3.47vw;
+	padding-bottom: 1.6vw;
+	border-bottom: 0.13vw solid #EEEEEE;
+	font-weight: 600;
+}
+
+.pro_box{
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	/* text-align: center; */
+}
+
+.pro{
+	width: 33%;
+	text-align: center;
+	padding-bottom: 8vw;
+}
+
+.pro img{
+	height: 10vw;
+	padding:4vw 0;
+	display: block;
+	margin: auto;
+}
+
+.banner2 img{
+	height: 26.67vw;
+	padding-bottom: 6vw;
+}
+
+.white_home_bottom{
+	height: 15vw;
+}
+
+/* home */
+.home_box{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: white;
+	align-items: center;
+	border-top: 0.13vw solid #dcdcdc;
+	height: 15.2vw;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.home_box img{
+	width: 5.6vw;
+}
+
+.home_box .name{
+	font-size: 3.47vw;
+	color: #707070;
+}
+
+#home_2 .name{
+	color: #FF2732;
+}

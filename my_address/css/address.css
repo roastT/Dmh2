@@ -1,0 +1,128 @@
+body {
+	background-color: #f8f8f8;
+}
+
+.header {
+	background-color: #fff;
+	border-bottom: 0.13vw solid #ededed;
+}
+
+.header .title_box {
+	padding: 8.2vw 0 2vw 2.47vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header .title_box .left {
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+}
+
+.header .left img {
+	height: 4.53vw;
+	padding-right: 4vw;
+}
+
+.header .left .name {
+	border-left: 0.4vw solid #7f7f7f;
+	padding-left: 2.8vw;
+	color: #101010;
+	font-size: 4.53vw;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.header .more img {
+	height: 4.67vw;
+}
+/* 主要部分 */
+.content{
+	box-sizing: border-box;
+	margin-bottom: 16vw;
+}
+.content .item{
+	background-color: white;
+	padding: 0 1.47vw;
+	margin-bottom: 3.73vw;
+}
+
+.content .info{
+	padding: 2.7vw 4.67vw;
+	border-bottom: 0.2vw solid #d1d1d1;
+}
+.content .info .name,
+.content .info .tel,
+.content .info .addr{
+	font-size: 3.73vw;
+	color: #292929;
+	line-height: 6.27vw;
+}
+
+.content .amend{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 2.93vw;
+}
+.content .amend .left{
+	display: flex;
+	align-items: center;
+}
+
+.content .left .dot{
+	width: 2.67vw;
+	height: 2.67vw;
+	border: 0.2vw solid #EAEAEA;
+	border-radius: 2.67vw;
+	background-color: white;
+}
+
+.content .left .dot img{
+	height: 3.47vw;
+	position: relative;
+	left: -0.5vw;
+	top: -0.5vw;
+	display: none;
+}
+.content .left .txt{
+	font-size: 3.47vw;
+	color: #000000;
+	padding-left: 1.33vw;
+}
+.content .amend .right{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 2.8vw 0 2.93vw 0;
+}
+
+.content .right .edit{
+	font-size: 3.47vw;
+	color: white;
+	background-color:  #ff2732;
+	padding:1.33vw 7.07vw;
+	border-radius: 1vw;
+}
+.content .right .del{
+	width: 5.47vw;
+	padding-left: 6.8vw;
+	border-radius: 1vw;
+}
+.content .right .del img{
+	width: 100%;
+}
+
+.footer {
+	font-size: 3.73vw;
+	color: white;
+	background-color: #ff2732;
+	padding: 4vw 0;
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}

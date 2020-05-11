@@ -1,0 +1,302 @@
+body {
+	background-color: #f7f7f7;
+}
+
+.header {
+	background-color: #fff;
+}
+
+.header .title_box {
+	padding: 8.2vw 0 4.13vw 2.47vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header .title_box .left {
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+}
+
+.header .left img {
+	height: 4.8vw;
+	width: 2.93vw;
+	padding-right: 3.87vw;
+}
+
+.header .left .name {
+	border-left: 0.4vw solid #000;
+	padding-left: 2.8vw;
+	color: #101010;
+	font-size: 4.53vw;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.header .more img {
+	height: 4.67vw;
+}
+
+.cart_box {
+	margin-top: 2.13vw;
+	background-color: white;
+	padding-top: 4vw;
+}
+
+.cart_box .cart {
+	padding-bottom: 6vw;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.cart_box .choose {
+	height: 2.67vw;
+	width: 2.67vw;
+	border-radius: 2.67vw;
+	border: 0.2vw solid #d3d3d3;
+	margin-right: 2.27vw;
+}
+
+.cart_box .choose img {
+	height: 3.6vw;
+	position: absolute;
+	left: -0.5vw;
+	top: -0.5vw;
+	display: none;
+}
+
+.cart_box .pro {
+	border-radius: 1vw;
+	overflow: hidden;
+	width: 19.07vw;
+	margin-right: 3.6vw;
+}
+
+.cart_box .pro img {
+	height: 20.93vw;
+}
+
+.cart_box .txt .name {
+	color: #000000;
+	font-size: 3.47vw;
+	overflow: hidden;
+	max-height: 10vw;
+	width: 63.6vw;
+	text-overflow: ellipsis;
+}
+
+.cart_box .txt .type {
+	font-size: 3.2vw;
+	color: rgba(38, 38, 38, 0.6);
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 63.6vw;
+	margin-top: 1vw;
+}
+
+.cart_box .txt .price_box {
+	margin-top: 2.53vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cart_box .price_box .price {
+	color: #FF2732;
+	font-size: 2.93vw;
+}
+
+.cart_box .price_box .price span {
+	font-size: 3.73vw;
+}
+
+/* 数量 */
+.cart .price_box .count {
+	border: 0.13vw solid #7f7f7f;
+	height: 3.73vw;
+	line-height: 3.73vw;
+	text-align: center;
+	width: 18.26vw;
+	display: flex;
+}
+
+.cart .price_box div {
+	display: inline-block;
+	width: 6vw;
+
+}
+
+.cart .price_box .num {
+	font-size: 2.43vw;
+	border-left: 0.13vw solid #7f7f7f;
+	border-right: 0.13vw solid #7f7f7f;
+}
+
+/* 大家都在买 */
+.together {
+	margin-top: 2.13vw;
+	background-color: white;
+	margin-bottom: 14vw;
+}
+
+.together .name {
+	color: #000;
+	font-size: 3.73vw;
+	text-align: center;
+	padding: 5.33vw 0 3.33vw;
+}
+
+.hot_box {
+	margin: 3vw 3vw;
+	display: flex;
+	justify-content: space-between;
+}
+
+.hot_box .img img {
+	width: 26.8vw;
+}
+
+.hot_box .right {
+	margin-left: 3.47vw;
+	border-bottom: 0.13vw solid rgba(0, 0, 0, 0.4);
+}
+
+.hot_box .title {
+	font-size: 3.47vw;
+	color: #000000;
+}
+
+.hot_pirce_box {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 2.8vw;
+}
+
+.hot_pirce_logo {
+	font-size: 3.2vw;
+	color: #ff2732;
+}
+
+.hot_pirce_logo img {
+	width: 2.4vw;
+}
+
+.hot_pirce_logo span {
+	font-size: 2.4vw;
+	padding-left: 1vw;
+}
+
+.price_box {
+	display: flex;
+	align-items: center;
+}
+
+.hot_pirce_handle {
+	font-size: 2.67vw;
+	color: white;
+	background-color: #ff2732;
+	padding: 0.3vw 2vw;
+	border-radius: 1.87vw;
+}
+
+.hot_pirce {
+	font-size: 3.73vw;
+	color: black;
+	padding-left: 1.73vw;
+	margin-right: 4vw;
+}
+
+.hot_pirce span {
+	font-size: 2.4vw;
+}
+
+.gain {
+	display: flex;
+	align-items: center;
+	margin-top: 2.13vw;
+}
+
+.gain_logo {
+	font-size: 3.2vw;
+	color: #ff2732;
+}
+
+.gain_logo img {
+	width: 2.4vw;
+}
+
+.gain_logo span {
+	font-size: 2.67vw;
+	padding-left: 1vw;
+}
+
+.ratio {
+	font-size: 2.67vw;
+	color: #6e6e6e;
+	margin-left: 3.33vw;
+}
+
+/* 现在下单 */
+.buy_box {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	width: 100%;
+}
+
+.buy_box .left {
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 3.47vw;
+	display: flex;
+	align-items: center;
+	padding-left: 2vw;
+}
+
+.buy_box .left .choose {
+
+	height: 2.67vw;
+	width: 2.67vw;
+	border-radius: 2.67vw;
+	border: 0.2vw solid #d3d3d3;
+	margin-right: 1.65vw;
+}
+
+.buy_box .left .choose img {
+	height: 3.6vw;
+	position: absolute;
+	left: -0.5vw;
+	top: -0.5vw;
+	display: none;
+}
+
+.buy_box .right{
+	display: flex;
+}
+.buy_box .right .price{
+	color: #FF2732;
+	font-size: 3.47vw;
+	align-items: center;
+	padding: 4vw 3vw;
+}
+
+.buy_box .price i{
+	font-size: 2.4vw;
+	padding-left: 1vw;
+}
+
+.buy_box .buynow{
+	background-color: #FF2732;
+	color: #f8f8f8;
+	font-size: 3.47vw;
+	text-align: center;
+	width: 23.47vw;
+	padding: 4vw 0;
+}

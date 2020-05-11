@@ -1,0 +1,82 @@
+.header {
+	background-color: #fff;
+	border-bottom: 0.13vw solid #ededed;
+}
+
+.header .title_box {
+	padding: 8.2vw 0 2vw 2.47vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header .title_box .left {
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+}
+
+.header .left img {
+	height: 4.8vw;
+	padding-right: 3.87vw;
+}
+
+.header .left .name {
+	border-left: 0.4vw solid #000;
+	padding-left: 2.8vw;
+	color: #101010;
+	font-size: 4.53vw;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.header .more img {
+	height: 4.67vw;
+}
+
+input {
+	border: none;
+	font-size: 3.47vw;
+	color: rgba(0, 0, 0, 0.54);
+}
+
+/* 小标题 */
+label {
+	color: #000000;
+	font-size: 3.73vw;
+	padding-right: 2vw;
+}
+
+.addr_body .name,
+.addr_body .del{
+	padding: 5.2vw 0;
+	border-bottom: 0.13vw solid #ededed;
+}
+
+.addr_body .addr{
+	padding-top: 5.2vw;
+}
+
+.addr_body .demoTable{
+	width: 100%;
+	margin: 4vw 0;
+}
+
+.addr_body .detail{
+	padding: 3.87vw 0;
+	border-top: 0.13vw solid #ededed;
+	border-bottom: 0.13vw solid #ededed;
+}
+
+.footer{
+	font-size: 3.73vw;
+	color: white;
+	background-color: #ff2732;
+	padding: 4vw 0;
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}

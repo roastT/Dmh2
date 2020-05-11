@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/confirm.css" />
+	</head>
+	<body>
+		<div class="header">
+			<div class="container">
+				<div class="title_box">
+					<div class="left">
+						<img src="img/back.png">
+						<div class="name">
+							确认订单
+						</div>
+					</div>
+					<div class="more">
+						<img src="img/more.png">
+					</div>
+				</div>
+			</div>
+		</div>
+		<ul class="content">
+			<li class="item">
+				<div class="info">
+					<div class="user">
+						<div class="name">收货人：xxx</div>
+						<div class="tel">联系方式：123456789</div>
+						<div class="addr">收货地址：山东省青岛市市北区镇江路街道...</div>
+					</div>
+					<a href="../edit_address/edit_address.html">
+						<div class="right"><img src="img/right%23666.png"></div>
+					</a>
+				</div>
+				<a href="../pro_details/pro_details.html">
+					<div class="product">
+						<div class="img"><img src="img/photo_1.jpg"></div>
+						<div class="des">
+							<div class="name">御泥坊小红瓶美白面膜补水保湿玻尿酸色正品</div>
+							<div class="price">￥186.66</div>
+						</div>
+					</div>
+				</a>
+				<div class="freight">运费：0元</div>
+				<div class="diliver_way">配送方式：<div class="dot"></div>快递</div>
+			</li>
+		</ul>
+		<div class="footer">
+			<div class="total">合计：<span class="money">￥186.66</span></div>
+			<div class="submit">提交订单</div>
+		</div>
+		<script src="js/jquery-3.4.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$('.dot').click(function() {
+				$(this).css('background-color', '#666');
+			})
+
+			$('.submit').click(function() {
+				alert("付款成功");
+			})
+			
+			// 返回上一页面
+			$('.header .left img').click(function () {
+				history.back();
+			})
+		</script>
+	</body>
+</html>

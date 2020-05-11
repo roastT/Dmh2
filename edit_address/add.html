@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="lib/address/css/zcity.css"/>
+		<link rel="stylesheet" type="text/css" href="css/edit_address.css"/>
+	</head>
+	<body>
+		<div class="header">
+			<div class="container">
+				<div class="title_box">
+					<div class="left">
+						<img src="img/back.png">
+						<div class="name">
+							添加收获地址
+						</div>
+					</div>
+					<div class="more">
+						<img src="img/more.png">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="addr_body">
+			<div class="user">
+				<div class="name">
+					<input type="text" placeholder="名字">
+				</div>
+				<div class="del">
+					<input type="text" placeholder="电话">
+				</div>
+		
+			</div>
+			<table class="demoTable">
+				<tbody>
+					<tr>
+						<td class="td-06">
+							<!--zcityGroup start-->
+							<div class="zcityGroup" city-range="{'level_start':1,'level_end':3}" city-ini="选择省份,选择城市,选择地区"></div>
+							<!--zcityGroup end-->
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="detail">
+				<input type="text" placeholder="请填写详细街道地址">
+			</div>
+		</div>
+		<div class="footer">保存</div>
+		<script src="lib/address/js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/address/js/zcity.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			zcityrun('.zcityGroup');
+			$('.footer').click(function () {
+				alert('保存成功')
+			})
+			
+			// 返回上一页面
+			$('.header .left img').click(function () {
+				history.back();
+			})
+		</script>
+	</body>
+</html>

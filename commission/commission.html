@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/commission.css"/>
+	</head>
+	<body>
+		<div class="header">
+			<div class="container">
+				<div class="title_box">
+					<div class="left">
+						<img src="img/back.png">
+						<div class="name">
+							资料修改
+						</div>
+					</div>
+					<div class="more">
+						<img src="img/more.png">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="head_top">
+			<div class="title">—————— 可提现金额 ——————</div>
+			<div class="money">￥<span>0.</span>00</div>
+			<div class="handle1">提现</div>
+			<div class=" record record1">
+				<div class="txt">提现记录</div>
+				<div class="img"><img src="img/right%23666.png"></div>
+			</div>
+			<div class="details">
+				<div class="box box1">
+					<div class="name">团队销售额</div>
+					<div class="money">￥<span>0.</span>00</div>
+					<div class="record">
+						<div class="txt txt2">查看明细</div>
+						<div class="img"><img src="img/right_black.png"></div>
+					</div>
+				</div>
+				<div class="box">
+					<div class="name">返利统计</div>
+					<div class="money">￥<span>0.</span>00</div>
+					<div class="record">
+						<div class="txt txt2">查看明细</div>
+						<div class="img"><img src="img/right_black.png"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="content">
+			<div class="title">
+				<div class="txt1">待处理订单（<span>6</span>）</div>
+				<div class="txt2">
+					<div class="txt">全部订单明细</div>
+					<div class="img"><img src="img/right_black.png"></div>
+				</div>
+			</div>
+			<ul class="orders">
+				<li class="item">
+					<div class="product">
+						<div class="img"><img src="img/photo_1.jpg"></div>
+						<div class="txt">
+							<div class="name">高端GNF不锈钢脚踏垃圾桶家用40L大容量30L厨房25L客厅8L有盖...</div>
+							<div class="money">￥<span>520</span></div>
+						</div>
+					</div>
+					<div class="look">查看详情</div>
+				</li>
+				<li class="item">
+					<div class="product">
+						<div class="img"><img src="img/photo_1.jpg"></div>
+						<div class="txt">
+							<div class="name">高端GNF不锈钢脚踏垃圾桶家用40L大容量30L厨房25L客厅8L有盖...</div>
+							<div class="money">￥<span>520</span></div>
+						</div>
+					</div>
+					<div class="look">查看详情</div>
+				</li>
+				<li class="item">
+					<div class="product">
+						<div class="img"><img src="img/photo_1.jpg"></div>
+						<div class="txt">
+							<div class="name">高端GNF不锈钢脚踏垃圾桶家用40L大容量30L厨房25L客厅8L有盖...</div>
+							<div class="money">￥<span>520</span></div>
+						</div>
+					</div>
+					<div class="look">查看详情</div>
+				</li>
+			</ul>
+		</div>
+		<div class="home_box">
+			<a href="../index/index.html">
+				<div class="home" id="home_1">
+					<img src="img/main1.png">
+					<div class="name">
+						首页
+					</div>
+				</div>
+			</a>
+			<a href="../classify/classify.html">
+				<div class="home">
+					<img src="img/main2.png">
+					<div class="name">
+						分类
+					</div>
+				</div>
+			</a>
+			<a href="">
+				<div class="home" id="home_3">
+					<img src="img/main3_red.png">
+					<div class="name">
+						佣金
+					</div>
+				</div>
+			</a>
+			<a href="../cart/cart.html">
+				<div class="home">
+					<img src="img/main4.png">
+					<div class="name">
+						购物车
+					</div>
+				</div>
+			</a>
+			<a href="../person/person.html">
+				<div class="home" id="home_5">
+					<img src="img/main_05.png">
+					<div class="name">
+						我的
+					</div>
+				</div>
+			</a>
+		</div>
+		<script src="js/jquery-3.4.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/layer/layer.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			// 提现按钮
+			$('.handle1').click(function () {
+				layer.alert('金额不足十元')
+			})
+			// 返回上一页面
+			$('.header .left img').click(function() {
+				history.back();
+			})
+		</script>
+	</body>
+</html>

@@ -1,0 +1,95 @@
+body {
+	background-color: #f8f8f8;
+}
+
+.header {
+	background-color: #fff;
+	border-bottom: 0.13vw solid #ededed;
+}
+
+.header .title_box {
+	padding: 8.2vw 0 2vw 2.47vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header .title_box .left {
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+}
+
+.header .left img {
+	height: 4.53vw;
+	padding-right: 4vw;
+}
+
+.header .left .name {
+	border-left: 0.4vw solid #7f7f7f;
+	padding-left: 2.8vw;
+	color: #101010;
+	font-size: 4.53vw;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.header .more img {
+	height: 4.67vw;
+}
+
+/* 信息开始 */
+input {
+	border: none;
+	font-size: 3.73vw;
+	color: #292929;
+	width: 100%;
+}
+
+.addr_body {
+	border-top: 0.13vw solid #EEEEEE;
+	background-color: white;
+	color: #292929;
+	font-size: 3.73vw;
+}
+
+.user {
+	line-height: 11.2vw;
+	padding: 0 5.07vw;
+	display: flex;
+}
+
+.user .del {
+	padding-left: 4vw;
+	border-left: 0.13vw solid #EEEEEE;
+}
+
+.demoTable {
+	width: 100vw;
+	border-top: 0.13vw solid #EEEEEE;
+	border-bottom: 0.13vw solid #EEEEEE;
+
+}
+
+.zcityGroup .zcityItem .zcityItem-head {
+	border: 0;
+}
+
+.detail {
+	padding: 3.87vw 4.93vw;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.footer {
+	font-size: 3.73vw;
+	color: white;
+	background-color: #ff2732;
+	padding: 4vw 0;
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}

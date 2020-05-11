@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/address.css" />
+	</head>
+	<body>
+		<div class="header">
+			<div class="container">
+				<div class="title_box">
+					<div class="left">
+						<img src="img/back.png">
+						<div class="name">
+							我的地址
+						</div>
+					</div>
+					<div class="more">
+						<img src="img/more.png">
+					</div>
+				</div>
+			</div>
+		</div>
+		<ul class="content">
+			<li class="item">
+				<div class="info">
+					<div class="name">收货人：xxx</div>
+					<div class="tel">联系方式：123456789</div>
+					<div class="addr">收货地址：山东省青岛市市北区镇江路街道延吉路76号中海大厦2703</div>
+				</div>
+				<div class="amend">
+					<div class="left">
+						<div class="dot relative"><img src="img/yes.png"></div>
+						<div class="txt">默认地址</div>
+					</div>
+					<div class="right">
+						<a href="../edit_address/edit_address.html"><div class="edit">编辑</div></a>
+						<div class="del"><img src="img/del.png"></div>
+					</div>
+				</div>
+			</li>
+			<li class="item">
+				<div class="info">
+					<div class="name">收货人：xxx</div>
+					<div class="tel">联系方式：123456789</div>
+					<div class="addr">收货地址：山东省青岛市市北区镇江路街道延吉路76号中海大厦2703</div>
+				</div>
+				<div class="amend">
+					<div class="left">
+						<div class="dot relative"><img src="img/yes.png"></div>
+						<div class="txt">默认地址</div>
+					</div>
+					<div class="right">
+						<a href="../edit_address/edit_address.html"><div class="edit">编辑</div></a>
+						<div class="del"><img src="img/del.png"></div>
+					</div>
+				</div>
+			</li>
+		</ul>
+		<a href="../edit_address/add.html"><div class="footer">添加新地址</div></a>
+		<script src="js/jquery-3.4.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/layer/layer.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			//默认地址
+			$('.dot').click(function () {
+				var Dis=$(this).children().css('display');
+				if(Dis=='none'){
+					$(this).children().css('display','block');
+					$(this).parents('.item').siblings('.item').find('.dot img').css('display','none');
+				}else{
+					$(this).children().css('display','none');
+				}
+			})
+			// 删除操作
+			$('.del').click(function () {
+				layer.confirm('确认删除此条地址信息吗？', function() {
+					$(this).parents('.item').remove();
+					layer.msg('删除成功！');	
+				});
+			})
+			
+			// 返回上一页面
+			$('.header .left img').click(function () {
+				history.back();
+			})
+		</script>
+	</body>
+</html>
